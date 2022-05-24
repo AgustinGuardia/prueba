@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.menu {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+.logotrekking {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 55% 0% 10px;
+    width: 128px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+a {
+    color: #4380c4;
+    text-decoration: none;
+}
+/* Fin header */
+
+.atardecer {
+    width: 100%;
+    height: 120vh;
+}
+
+.inicio{
+    color: aliceblue;
+    position: relative;
+    bottom: 490px;
+    left: 200px;
+}
+
+.nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nosotros-text {
+    width: 50%;
+}
+
+.encabezados{
+    padding: 20px;
+}
+
+.act {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.photo-one {
+    width: 30%;
+    height: 40vh;
+}
+
+.photo-two {
+    width: 30%;
+    height: 50vh;
+}
+
+.photo-three {
+    width: 30%;
+    height: 40vh;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.op {
+    padding: 20px 0 20px 20px;
+}
+
+.background{
+    background-color: rgb(255, 255, 255);
+}
+/* Footer */
+
+.contact-container{
+    background-color: #000;
+    padding-top: 73px;
+}
+.contact-div {
+    display: flex;
+    justify-content: space-between;
+}
+.lg {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 65px;
+}
+
+.three {
+    width: 20%;
+}
+
+/* Fin footer */
